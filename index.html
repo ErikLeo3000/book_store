@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="icons">
+                <i class="search-icon" aria-label="Buscar">🔍</i>
+                <i class="bell-icon" aria-label="Notificaciones">🔔</i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filtro de Categorías -->
+    <section class="categories">
+        <button class="category" aria-label="Mostrar libros Trending">🔥 Trending</button>
+        <button class="category" aria-label="Mostrar libros de Romance">❤️ Romance</button>
+        <button class="category" aria-label="Mostrar libros para niños">🐾 Children</button>
+    </section>
+
+    <!-- Lista de Libros -->
+    <section class="book-list">
+        <div class="book-card" role="article">
+            <img src="https://via.placeholder.com/150" alt="The Republic" class="book-image">
+            <h3>The Republic</h3>
+            <p class="author">By Plato</p>
+            <p class="price">₹285</p>
+            <button class="buy-btn" aria-label="Comprar The Republic">Buy</button>
+        </div>
+    </section>
+</body>
+</html>
